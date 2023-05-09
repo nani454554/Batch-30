@@ -1,0 +1,74 @@
+Website   https://clouddevopshub.com/  DNS
+
+
+Domain / IP 
+VM - OS Linux - (ubuntu) - Physical 2cpu / 4gb / 8gb  ram  added 
+Ntworking - VPC - IGW
+Dev - code - HTM css 
+Tester 
+VM - OS Linux - (ubuntu)
+webserver / run website - nginx
+DB -- 10 gb  
+
+
+
+Time -- 2-3 months 
+costing - 25$  --2-3 lakhs INR    
+
+------------
+
+Step 1 :- Go to any cloud provider GCP 
+
+GCP 
+done 
+
+Step 2 :- Create Virtual machine
+
+thota 
+Os ubuntu 
+2cpu 4 gb ram 10 gb storage 
+
+done ---
+ 
+Step 3 :- install docker 
+root@thota:~# docker -v
+Docker version 20.10.21, build 20.10.21-0ubuntu1~18.04.3
+
+done ---
+
+Step 4 :- Download website  / Dev code 
+
+car service 
+
+done 
+
+Step 5 :- Run the nginx container with 
+downloaded website
+Step 6 :- Go to IP address:80 and verify
+
+--------------
+
+Step 1 :- Go to any cloud provider GCP / AWS / Azure / etc
+Step 2 :- Create Virtual machine 
+Step 3 :- install docker 
+				sudo -i
+				apt-get update
+				apt install docker.io
+				docker -v
+
+Step 4 :- Download website from https://www.free-css.com/ 
+		            wget 
+	                  apt install unzip
+
+Step 5 :- Run the nginx container with downloaded website 
+	docker run -ti -d -p 80:80 -v /root/car-repair-html-template:/usr/share/nginx/html nginx
+
+Step 6 :- Go to IP address:80 and verify
+
+
+--------------
+
+docker run -d --restart unless-stopped --name win11react -p   3000:3000 blueedge/win11react:latest
+
+
+
